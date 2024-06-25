@@ -55,8 +55,11 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        shadow: "#D9D9D9",
+        neutral: "#fcfcfc",
+        "border-variant": "#D0D5DD",
         gray: {
-          50 : "D1D1D1",
+          50: "#D1D1D1",
           100: "#B0B0B0",
           200: "#888888",
           300: "#6E6D6D",
@@ -65,7 +68,7 @@ const config = {
           600: "#3D3D3D",
         },
         success: {
-          700: "067647",
+          700: "#067647",
           500: "#17B26A",
           200: "#ABEFC6",
           50: "#ECFDF3",

@@ -8,6 +8,7 @@ import PencilIcon from "./pencil";
 import PersonTickIcon from "./person-tick";
 import TrashIcon from "./trash";
 import UsersIcon from "./users";
+import ChevronDownIcon from "./chevron-down";
 
 export {
   BriefCaseIcon,
@@ -20,4 +21,5 @@ export {
   PersonTickIcon,
   TrashIcon,
   UsersIcon,
+  ChevronDownIcon,
 };
