@@ -3,18 +3,18 @@ import Image from "next/image";
 export default function CompanyDetails() {
   return (
     <div className="w-full border-b  py-10 border-border">
-      <div className="2xl:max-w-[1250px] max-w-5xl px-5  mx-auto flex flex-col gap-y-10">
+      <div className="2xl:max-w-[1250px] max-w-5xl px-5  mx-auto flex flex-col gap-y-8">
         <div className="flex items-center gap-3">
           <Image
             alt="Company Logo"
             src="/atlassion.png"
             width={40}
             height={40}
-            className="rounded-lg"
+            className="rounded-md"
           />
           <h5 className="text-xl text-gray-500">Atlassion</h5>
         </div>
-        <div className="grid grid-cols-2 gap-y-8 w-full max-w-3xl ">
+        <div className="grid grid-cols-2 gap-y-6 w-full max-w-3xl ">
           <div className="flex flex-col gap-2">
             <h5 className="text-sm text-gray-300">Company size</h5>
             <p className="text-gray-600 ">1k - 2k Employees</p>
@@ -25,11 +25,13 @@ export default function CompanyDetails() {
           </div>
           <div className="flex flex-col gap-2">
             <h5 className="text-sm text-gray-300">Sector</h5>
-            <p className="text-gray-600 ">Years of Experience</p>
+            <p className="text-gray-600 ">
+              Information Technology, Infrastructure
+            </p>
           </div>
           <div className="flex flex-col gap-2">
             <h5 className="text-sm text-gray-300">Funding</h5>
-            <p className="text-gray-600 ">Years of Experience</p>
+            <p className="text-gray-600 ">Bootstrapped</p>
           </div>
           <div className="flex flex-col gap-2">
             <h5 className="text-sm text-gray-300">Founded In</h5>

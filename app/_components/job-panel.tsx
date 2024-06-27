@@ -11,12 +11,12 @@ import { Button } from "@/components/ui/button";
 export default function JobPanel() {
   return (
     <aside className="shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] h-full w-full flex flex-col gap-y-6 border-r border-border bg-neutral p-6">
-      <div className="flex w-full items-center gap-4">
-        <Button variant={"secondary"} className="w-full">
+      <div className="flex w-full flex-wrap max-w-xl items-center gap-4">
+        <Button variant={"secondary"} className="w-full sm:w-auto flex-grow">
           <TrashIcon strokeWidth={1.5} className="size-[14px] mr-2" />
           Delete Job
         </Button>
-        <Button className="w-full">
+        <Button className="w-full sm:w-auto flex-grow">
           <PencilIcon className="size-[14px] mr-2" />
           Edit Job
         </Button>

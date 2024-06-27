@@ -8,7 +8,7 @@ import Tab from "./_components/tab";
 
 export default function Home() {
   return (
-    <main className="max-w-[1700px] md:pt-[100px] mx-auto w-full">
+    <main className="max-w-[1800px] md:pt-[88px] mx-auto w-full">
       <Tab />
       <div className="lg:grid grid-cols-[1fr,auto] w-full border border-border">
         <div className="flex-1 flex flex-col">
@@ -20,7 +20,7 @@ export default function Home() {
             status
           />
           <JobRequirements
-            skills={["Figma", "Illustrator", "XD"]}
+            skills={["Figma", "Adobe Illustrator", "Adobe XD"]}
             language="English"
             type="Full Time"
             yearsOfExperience={3}

@@ -15,7 +15,7 @@ export default function JobRequirements({
   yearsOfExperience,
 }: JobRequirementsProps) {
   return (
-    <div className="w-full border-b  py-10 border-border">
+    <div className="w-full border-b  pt-10 pb-8 border-border">
       <div className="2xl:max-w-[1250px] max-w-5xl px-5  mx-auto flex flex-wrap gap-x-32">
         <div className="max-w-[62rem] w-full grid grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="flex flex-1 flex-col gap-3">
@@ -25,7 +25,7 @@ export default function JobRequirements({
                 <Badge
                   key={skill}
                   variant="outline"
-                  className="rounded-md px-[6px] py-1 w-min border-border-variant"
+                  className="rounded-md px-[4px] text-sm text-[#344054] py-[3px] w-max border-border-variant"
                 >
                   <SkillIcon skill={skill} className="size-4 mr-2" />
                   {skill}
@@ -63,9 +63,9 @@ const SkillIcon = ({
   switch (skill) {
     case "Figma":
       return <Figma className={className} />;
-    case "Illustrator":
+    case "Adobe Illustrator":
       return <Illustrator className={className} />;
-    case "XD":
+    case "Adobe XD":
       return <XD className={className} />;
     default:
       return null;

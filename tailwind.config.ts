@@ -56,6 +56,7 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
         shadow: "#D9D9D9",
+        "border-secondary": "#FCB4A5",
         neutral: "#fcfcfc",
         "border-variant": "#D0D5DD",
         gray: {

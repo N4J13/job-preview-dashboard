@@ -15,11 +15,11 @@ export const navList: NavList[] = [
   {
     title: "Messages",
     icon: <MessageIcon />,
-    href: "/about",
+    href: "/messages",
   },
   {
     title: "Payments",
     icon: <PaymentIcon />,
-    href: "/contact",
+    href: "/payments",
   },
 ];

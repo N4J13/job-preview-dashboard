@@ -20,7 +20,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className={"font-sans"}>
+      <body className={"font-sans max-w-[1800px] mx-auto"}>
         <NavBar />
         {children}
       </body>
