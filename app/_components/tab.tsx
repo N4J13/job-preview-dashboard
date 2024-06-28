@@ -43,7 +43,7 @@ interface LineTabProps {
 const LineTabs = ({ center, customID }: LineTabProps) => {
   const [selected, setSelected] = useState<string>(tabs[0]);
   return (
-    <div className="2xl:max-w-[1650px] max-w-[88rem] px-5 border-border border-b mx-auto flex flex-col ">
+    <div className="2xl:max-w-[1650px] max-w-[88rem] px-5 border-border border mx-auto flex flex-col ">
       <div
         className={cn(
           "py-3 flex  items-center w-full h-full overflow-x-auto gap-8 lg:gap-[50px]",
